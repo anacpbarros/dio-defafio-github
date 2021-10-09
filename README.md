@@ -1,6 +1,12 @@
-# Defaio da DIO de Git/Github
-Repositório criado para desafio de projeto.
+# Desafios de projetos 🚀🚀
+✨Repositório criado para desafios de projetos realizados ao longo de aulas do bootcamp "Impulso React Web Developer" da DIO.
+
+## Projetos/Aulas
+✔ Criação de Repositório remoto - aula de Git/Github. </br>
+✔ Aula de flex container.
 
 ## Links úteis 
 [Markdown Guide](https://www.markdownguide.org/basic-syntax/)
+
+
 
