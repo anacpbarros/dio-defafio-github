@@ -2,7 +2,7 @@
 ✨Repositório criado para desafios de projetos realizados ao longo de aulas do bootcamp "Impulso React Web Developer" da DIO.
 
 ## Projetos/Aulas
-✔ Criação de Repositório remoto - aula de Git/Github.
+✔ Criação de Repositório remoto - aula de Git/Github. </br>
 ✔ Aula de flex container.
 
 ## Links úteis 
