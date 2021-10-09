@@ -2,6 +2,7 @@
 ✨Repositório criado para desafios de projetos realizados ao longo de aulas do bootcamp "Impulso React Web Developer".
 
 ## Projetos/Aulas
+✔ Criação de Repositório remoto - aula de Git/Github.
 ✔ Aula de flex container.
 
 ## Links úteis 
