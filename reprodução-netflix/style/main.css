@@ -1,6 +1,6 @@
 :root{
-    --vermelho:#eca461;
-    --preta:#693d0bee;
+    --bege:#eca461;
+    --marrom:#693d0bee;
 }
 
 *{
@@ -11,7 +11,7 @@
 
 /*elementos base*/
 body{
-   background: var(--preta);
+   background: var(--marrom);
    font-family: 'Arial', Times, serif;
    color:white;
 }
@@ -25,10 +25,19 @@ header .container{
 
 header .logo{
     margin-left: 5px;
-    color: var(--vermelho);
+    color: var(--bege);
     font-family: 'Beba', 'Arial', Times, serif;
     font-size: 50px;
-    font-weight: normal;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to bottom, rgb(207, 165, 103), rgb(223, 171, 104), rgb(250, 208, 153));
+    color: var(--bege);
+    -webkit-text-fill-color: transparent;
+    cursor: default;
 }
 
 header nav a{
@@ -41,9 +50,12 @@ header nav a:hover{
     color:rgb(252, 203, 138);
 }
 
-h2 i {
-    display: flex;
-    font-size:x-large;
+.logo img {
+    height: 60px;
+    margin-right: 5px;
+    object-fit: cover;
+    padding-top: 0;
+    margin-top: -15px;
 }
 
 /*filme principal*/
@@ -60,17 +72,17 @@ h2 i {
     align-items: flex-start;
 }
 
-
 .filme-principal .descricao{
     margin-top: 10px;
     margin-bottom: 40px;
+    cursor: default;
 }
-
 
 .filme-principal .titulo{
     margin-top: 15%;
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
+    cursor: default;
 }
 
 .botao{
@@ -116,7 +128,7 @@ h2 i {
     opacity: 0.7;
 }
 .carrosel-filmes{
-    margin-top:5px;
+    margin-top:10px;
 }
 
 @font-face {
