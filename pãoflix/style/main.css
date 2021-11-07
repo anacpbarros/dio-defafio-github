@@ -1,0 +1,158 @@
+:root{
+    --bege:#eca461;
+    --marrom:#693d0bee;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body{
+   background: var(--marrom);
+   font-family: 'Arial', Times, serif;
+   color:white;
+}
+
+header .container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--bege);
+    font-family: 'Beba', 'Arial', Times, serif;
+    font-size: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to bottom, rgb(207, 165, 103), rgb(223, 171, 104), rgb(250, 208, 153));
+    color: var(--bege);
+    -webkit-text-fill-color: transparent;
+    cursor: default;
+}
+
+header nav a{
+    text-decoration:none;
+    color:rgb(224, 165, 87);
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color:rgb(252, 203, 138);
+}
+
+.logo img {
+    height: 60px;
+    margin-right: 5px;
+    object-fit: cover;
+    padding-top: 0;
+    margin-top: -15px;
+}
+
+/*filme principal*/
+.filme-principal{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/pao-caseiro1.jpg');
+
+    height:500px;
+    background-size: auto;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    cursor: default;
+}
+
+.filme-principal .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    cursor: default;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+    text-decoration: none;
+}
+
+.botao:hover{
+    background-color:white;
+    color:black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 250px;
+    display: block;
+    cursor: pointer;
+    object-fit: cover;
+    transition: .3s ease all;
+}
+
+.box-filme:hover{
+    opacity: 0.7;
+}
+.carrosel-filmes{
+    margin-top:10px;
+}
+
+@font-face {
+    font-family: 'Beba';
+    src: url('./fonts/BebasNeue-Regular.otf') format('opentype'), url('./fonts/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
