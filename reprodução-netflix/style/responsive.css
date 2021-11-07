@@ -27,12 +27,12 @@
         margin-top: 5px;
     }
 
-    .filme-principal .descricao {
+    #principal .descricao {
         margin-top: 10px;
         margin-bottom: 30px;
     }
 
-    .filme-principal .titulo {
+    #principal .titulo {
         margin-top: 0px;
     }
 }

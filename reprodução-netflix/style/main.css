@@ -58,10 +58,9 @@ header nav a:hover{
     margin-top: -15px;
 }
 
-/*filme principal*/
-.filme-principal{
+#principal{
     font-size:16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/pao-caseiro1.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('../img/pao-caseiro1.jpg');
 
     height:500px;
     background-size: auto;
@@ -72,13 +71,13 @@ header nav a:hover{
     align-items: flex-start;
 }
 
-.filme-principal .descricao{
+#principal .descricao{
     margin-top: 10px;
     margin-bottom: 40px;
     cursor: default;
 }
 
-.filme-principal .titulo{
+#principal .titulo{
     margin-top: 15%;
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
@@ -112,11 +111,11 @@ header nav a:hover{
     margin-left: 20px;
 }
 
-.filme-principal .container{
+#principal .container{
     width: 70%;
 }
 
-.box-filme{
+.box-pao{
     height: 250px;
     display: block;
     cursor: pointer;
@@ -124,10 +123,10 @@ header nav a:hover{
     transition: .3s ease all;
 }
 
-.box-filme:hover{
+.box-pao:hover{
     opacity: 0.7;
 }
-.carrosel-filmes{
+.carrosel-paes{
     margin-top:10px;
 }
 
