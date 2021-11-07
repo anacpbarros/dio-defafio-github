@@ -63,7 +63,7 @@ header nav a:hover{
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('../img/pao-caseiro1.jpg');
 
     height:500px;
-    background-size: auto;
+    background-size: cover;
  
     display: flex;
     flex-direction: column;
