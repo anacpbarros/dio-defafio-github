@@ -41,10 +41,6 @@ header nav a:hover{
     color:rgb(252, 203, 138);
 }
 
-h2 i {
-    display: flex;
-    font-size:x-large;
-}
 
 /*filme principal*/
 .filme-principal{
