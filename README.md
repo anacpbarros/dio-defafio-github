@@ -4,6 +4,7 @@
 ## Projetos/Aulas
 ✔ Criação de Repositório remoto - aula de Git/Github. </br>
 ✔ Aula de flex container.
+✔ Reprodução tela Netflix.
 
 ## Links úteis 
 [Markdown Guide](https://www.markdownguide.org/basic-syntax/)
