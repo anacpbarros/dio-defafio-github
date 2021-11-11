@@ -5,7 +5,7 @@
 ✔ Criação de Repositório remoto - aula de Git/Github. </br>
 ✔ Aula de flex container. </br>
 ✔ Pãoflix (Minha versão da reprodução da tela da Netflix). </br>
-✔ Aula de react hooks e tests. 
+✔ Aula de React Hooks e boas práticas. 
 
 ## Links úteis 
 [Markdown Guide](https://www.markdownguide.org/basic-syntax/)
