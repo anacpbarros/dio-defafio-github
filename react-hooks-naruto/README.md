@@ -1,4 +1,4 @@
-## Esse projeto possui react hooks, styled components, boas práticas como uso de PropTypes e teste usando a biblioteca MSV(mock service worker).
+### ✔ Esse projeto possui react hooks, styled components, boas práticas como uso de PropTypes e teste usando a biblioteca MSV(mock service worker).
 
 # Naruto Quotes Client
 Naruto quotes generator client for DIO lesson.
